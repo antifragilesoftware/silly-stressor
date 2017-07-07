@@ -12,7 +12,7 @@ You will need Docker installed. For example, on a Mac consider installing [Docke
 Execute the following to build the docker image locally for this stressor:
 
 ```shell
-
+> docker build -t antifragilesoftware/silly-stressor .
 ```
 
 ## Run using Docker
