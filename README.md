@@ -18,5 +18,5 @@ Execute the following to build the docker image locally for this stressor:
 ## Run using Docker
 
 ```shell
-
+> docker run -it --rm --name my-silly-stressor antifragilesoftware/silly-stressor
 ```

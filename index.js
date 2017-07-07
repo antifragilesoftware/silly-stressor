@@ -1,6 +1,6 @@
 const uuidv4 = require('uuid/v4');
 
-let stressorParameters = {};
+var stressorParameters = {};
 
 if (process.env.stressor) {
     stressorParameters = JSON.parse(process.env.stressor);
